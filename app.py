@@ -47,7 +47,7 @@ tab_result,_ = result.tabs([" "," "])
 
 def component():
     tab1col1, tab1col2 = tab1.columns(2)
-    height = tab1col1.number_input("Height",0,251, value=None, placeholder="160", help="in cm")
+    height = tab1col1.number_input("Height",0,251, value=None, placeholder="150", help="in cm")
     weight = tab1col2.number_input("Weight", 0, 250, value=None, placeholder="75", help="in kg")
     if (weight is None) or (weight == 0) : weight = 1
     if (height is None) or (height == 0) : height = 1
