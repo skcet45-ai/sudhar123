@@ -32,7 +32,7 @@ def script():
         html(open_script, width=0, height=0)
 
 
-left, middle, right = st.columns([2,3.5,2])
+left, middle, right = st.columns([2,3.5,4])
 main, comps , result = middle.tabs([" ", " ", " "])
 
 with open("./style/main.md", "r", encoding="utf-8") as main_page:
@@ -107,7 +107,7 @@ def component():
             'Monthly Grocery Bill': grocery_bill,
             "Frequency of Traveling by Air": air_travel,
             "Vehicle Monthly Distance Km": vehicle_km,
-            "Waste Bag Size": waste_bag,
+            "Waste Bag ": waste_bag,
             "Waste Bag Weekly Count": waste_count,
             "How Long TV PC Daily Hour": daily_tv_pc,
             "Vehicle Type": vehicle_type,
