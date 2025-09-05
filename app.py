@@ -108,7 +108,7 @@ def component():
             "Frequency of Traveling by Air": air_travel,
             "Vehicle Monthly Distance Km": vehicle_km,
             "Waste Bag ": waste_bag,
-            "Waste Bag Weekly Count": waste_count,
+            "Waste Bag Count": waste_count,
             "How Long TV PC Daily Hour": daily_tv_pc,
             "Vehicle Type": vehicle_type,
             "How Many New Clothes Monthly": clothes_monthly,
